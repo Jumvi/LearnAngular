@@ -1,0 +1,31 @@
+
+
+.face-snap-card{
+    width: 35%;
+    padding: 10px 30px;
+    margin: 20px auto;
+    box-shadow: lightgrey 4px 4px 20px;
+}
+
+img{
+    width: 100%;
+}
+
+.but{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+button{
+    background-color: blanchedalmond;
+    color: red;
+    box-shadow: lightskyblue 3px 3px 7px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    
+}
+
+.snaped{
+    background-color: rgba($color: lightskyblue, $alpha: 0.4);
+    color: darkgreen;
+}

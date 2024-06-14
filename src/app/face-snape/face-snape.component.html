@@ -1,0 +1,15 @@
+<div class="face-snap-card">
+    <h2>{{faceSnap.title | uppercase}}</h2>
+    <img [src]="faceSnap.image" [alt]="faceSnap.title">
+    @if(faceSnap.location){
+        <p>Localisation : {{faceSnap.location}}</p>
+    }
+    <p>{{faceSnap.description}}</p>
+    <p>{{faceSnap.createdAt | date}}</p>
+
+    <p class="but">
+        <button (click)="onAddSnap()">{{btnName}}</button>
+        <span>{{faceSnap.snaps}}</span>
+    </p>
+</div>
+
